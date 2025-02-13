@@ -1,4 +1,26 @@
 * {
+    box-sizing: border-box;
+    font-family: "Oswald", serif;
     margin: 0;
     padding: 0;
+}
+
+:root {
+    --color-background: #030207;
+    --color-white: #fff;
+    --color-blue: #1474b4;
+}
+
+body {
+    background-color: var(--color-background);
+    color: var(--color-white);
+}
+
+h1, h2 {
+    font-family: "Bebas Neue", serif;
+    font-weight: 00;
+}
+
+a {
+    color: var(--color-blue);
 }
