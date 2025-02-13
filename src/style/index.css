@@ -6,7 +6,7 @@
 }
 
 :root {
-    --color-background: #030207;
+    --color-background: #000;
     --color-white: #fff;
     --color-blue: #1474b4;
 }
@@ -16,11 +16,35 @@ body {
     color: var(--color-white);
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: "Bebas Neue", serif;
     font-weight: 00;
 }
 
 a {
     color: var(--color-blue);
+}
+
+.hero__background__container {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.hero__background__container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.hero__background__container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.8) 40%, rgba(0, 0, 0, 0) 80%);
 }
