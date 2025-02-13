@@ -29,7 +29,7 @@ a {
 .hero__background__container {
     position: relative;
     width: 100%;
-    height: 80vh;
+    height: 90vh;
     overflow: hidden;
 }
 
@@ -37,7 +37,7 @@ a {
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
+}
 
 .hero__background__container::after {
     content: "";
@@ -47,4 +47,30 @@ a {
     width: 100%;
     height: 100%;
     background: linear-gradient(to top, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.8) 40%, rgba(0, 0, 0, 0) 80%);
+    z-index: 1; /* Mantém o gradiente sobre o vídeo */
+}
+
+.hero__foreground {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2; /* Garante que o texto fique acima do gradiente */
+}
+
+.hero__title {
+    font-size: 5rem;
+    font-weight: 300;
+}
+
+.hero__text {
+    margin-top: 2rem;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
 }
