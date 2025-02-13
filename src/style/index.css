@@ -1,4 +1,76 @@
 * {
+    box-sizing: border-box;
+    font-family: "Oswald", serif;
     margin: 0;
     padding: 0;
+}
+
+:root {
+    --color-background: #000;
+    --color-white: #fff;
+    --color-blue: #1474b4;
+}
+
+body {
+    background-color: var(--color-background);
+    color: var(--color-white);
+}
+
+h1,
+h2 {
+    font-family: "Bebas Neue", serif;
+    font-weight: 00;
+}
+
+a {
+    color: var(--color-blue);
+}
+
+.hero__background__container {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.hero__background__container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero__background__container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.8) 40%, rgba(0, 0, 0, 0) 80%);
+    z-index: 1; /* Mantém o gradiente sobre o vídeo */
+}
+
+.hero__foreground {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2; /* Garante que o texto fique acima do gradiente */
+}
+
+.hero__title {
+    font-size: 5rem;
+    font-weight: 300;
+}
+
+.hero__text {
+    margin-top: 2rem;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
 }
