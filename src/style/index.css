@@ -46,7 +46,7 @@ a {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to top, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.8) 40%, rgba(0, 0, 0, 0) 80%);
+    background: linear-gradient(to top, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.75) 40%, rgba(0, 0, 0, 0) 80%);
     z-index: 1; /* Mantém o gradiente sobre o vídeo */
 }
 
@@ -73,4 +73,48 @@ a {
     margin-top: 2rem;
     letter-spacing: 0.5rem;
     text-transform: uppercase;
+}
+
+.section {
+    padding: 0 8rem;
+    text-align: center;
+    overflow: hidden;
+}
+
+.section__title {
+    font-size: 3rem;
+    font-weight: 200;
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+}
+
+.section__img, .section__img-inline {
+    border-radius: .75rem;
+    box-shadow: 0 1rem 2rem -0.5rem rgba(114, 114, 114, 0.25);
+    object-fit: cover;
+    object-position: 50% 15%;
+    position: relative;
+    max-height: 22rem;
+    width: 100%;
+}
+
+.section__text, .section__text-inline {
+    font-size: 1.30rem;
+    line-height: 1.75rem;
+    margin: 3rem auto;
+}
+
+.section__text-inline {
+    text-align: left;
+}
+
+.section__text-inline > p {
+    margin-top: 1.5rem;
+}
+
+.section__img-inline {
+    float: left;
+    width: 40%;
+    margin-right: 4rem;
+    margin-bottom: 2rem;
 }
