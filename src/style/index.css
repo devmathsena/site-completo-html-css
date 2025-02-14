@@ -26,10 +26,6 @@ a {
     color: var(--color-blue);
 }
 
-p {
-    margin-top: 1.25rem;
-}
-
 .hero__background__container {
     position: relative;
     width: 100%;
@@ -82,6 +78,7 @@ p {
 .section {
     padding: 0 8rem;
     text-align: center;
+    overflow: hidden;
 }
 
 .section__title {
@@ -107,7 +104,17 @@ p {
     margin: 3rem auto;
 }
 
+.section__text-inline {
+    text-align: left;
+}
+
+.section__text-inline > p {
+    margin-top: 1.5rem;
+}
+
 .section__img-inline {
     float: left;
     width: 40%;
+    margin-right: 4rem;
+    margin-bottom: 2rem;
 }
