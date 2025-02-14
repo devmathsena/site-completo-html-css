@@ -74,3 +74,13 @@ a {
     letter-spacing: 0.5rem;
     text-transform: uppercase;
 }
+
+.section {
+    padding: 0 8rem;
+    text-align: center;
+}
+
+.section__img,
+.section__img__inline {
+    width: 100%;
+}
