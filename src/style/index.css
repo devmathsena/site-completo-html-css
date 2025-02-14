@@ -26,6 +26,10 @@ a {
     color: var(--color-blue);
 }
 
+p {
+    margin-top: 1.25rem;
+}
+
 .hero__background__container {
     position: relative;
     width: 100%;
@@ -91,14 +95,19 @@ a {
     border-radius: .75rem;
     box-shadow: 0 1rem 2rem -0.5rem rgba(114, 114, 114, 0.25);
     object-fit: cover;
-    object-position: top;
+    object-position: 50% 15%;
     position: relative;
-    max-height: 30rem;
+    max-height: 22rem;
     width: 100%;
 }
 
 .section__text, .section__text-inline {
-    font-size: 1.5rem;
+    font-size: 1.30rem;
     line-height: 1.75rem;
     margin: 3rem auto;
+}
+
+.section__img-inline {
+    float: left;
+    width: 40%;
 }
