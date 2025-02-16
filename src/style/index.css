@@ -101,14 +101,18 @@ a {
 .section__text, .section__text-inline {
     font-size: 1.30rem;
     line-height: 1.75rem;
-    margin: 3rem auto;
+    margin: 2.5rem auto;
 }
 
 .section__text-inline {
     text-align: left;
 }
 
-.section__text-inline > p {
+.section__text-inline > p  {
+    margin-top: -.4rem;
+}
+
+.section__text-inline > p + p {
     margin-top: 1.5rem;
 }
 
