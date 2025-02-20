@@ -1,11 +1,16 @@
-# 🚀 Site completo com HTML e CSS.
+# 🚗💨 Site Completo com HTML e CSS – Fast & Furious Edition!  
 
-## 📌 Sobre:
-Site completo com tema de Fast & Furious.
-> ℹ️ **O que seria um site completo?** Que contém toda sua estrutura semântica em **HTML5**, utiliza **CSS3**, vídeos e imagens.
+Este é um projeto prático de um site completo utilizando **HTML5** e **CSS3**, inspirado no universo de *Velozes & Furiosos*.  
 
-## 🎯 Objetivo:
-Praticar ensinamentos de HTML e CSS seguindo aulas do Curso Dev Web Javascript Fullstack da OneBitCode.
+## 🔹 O que esse projeto entrega?  
+✅ **Estrutura semântica bem definida com HTML5**  
+✅ **Uso de CSS3 para estilização e responsividade**  
+✅ **Integração de vídeos e imagens**  
 
-> ℹ️ **Obs.:** O site não foi feito **Mobile First**, por isso as media queries não ficaram tão otimizadas,
-mas adaptei para que a visualização do projeto no **GitHub Pages** ficassse apresentável em vários dispositivos facilitando sua análise e apreciação.
+## 🎯 Objetivo:  
+Colocar em prática os conceitos aprendidos no **Curso Dev Web Javascript Fullstack** da *OneBitCode*, focando no desenvolvimento de layouts completos.  
+
+## 📌 Detalhes:  
+⚠️ O site **não foi feito com abordagem Mobile First**, mas implementei **media queries** para garantir uma boa visualização no *GitHub Pages*.  
+
+🌍 **Veja a versão publicada no [GitHub Pages](https://devmathsena.github.io/site-completo-html-css/)**.
